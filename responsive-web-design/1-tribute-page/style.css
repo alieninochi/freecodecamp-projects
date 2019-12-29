@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 body {
+    font-family: Muli, sans-serif;
+    font-size: 1.2em;
     background: url("https://cdn.shopify.com/s/files/1/1407/7422/products/Loft_Curtains_Drapery-Color23-Scarlet_1024x1024.jpg?v=1527222295");
+}
+
+#header {
+
 }
 
