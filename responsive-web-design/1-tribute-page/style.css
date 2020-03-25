@@ -1,12 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 body {
+    color: aliceblue;
     font-family: Muli, sans-serif;
     font-size: 1.2em;
-    background: url("https://cdn.shopify.com/s/files/1/1407/7422/products/Loft_Curtains_Drapery-Color23-Scarlet_1024x1024.jpg?v=1527222295");
+    background: url("images/loft.webp");
+    background-size: cover;
 }
 
 #header {
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
 
+h1, h2, h3 {
+    text-align: center;
+}
+
+#img-div #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#tribute-info {
+    padding-top: 30px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+ul li {
+    padding-top: 20px;
+}
+
+blockquote {
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: darkred;
+}
+
+#link {
+    text-align: center;
+}
+
+#tribute-link {
+    color: darkgray;
+}
+
+#another-image {
+    padding: 30px 0;
+}
+
+#another-image #image-two {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
 }
 
