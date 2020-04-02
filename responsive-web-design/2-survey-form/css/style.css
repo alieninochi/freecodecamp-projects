@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.75;
+    background-color: rgba(50, 154, 207, 0.51);
+    background-image: url('../images/book-bg.jpg');
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
