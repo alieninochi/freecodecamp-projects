@@ -1,17 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
 
 body {
-    color: aliceblue;
+    color: #DBDBDB;
     font-family: Muli, sans-serif;
     font-size: 1.2em;
     background: url("images/loft.webp");
     background-size: cover;
-}
-
-#header {
-    border-radius: 15px;
-    width: 50%;
-    margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -32,7 +26,7 @@ h1, h2, h3 {
 
 #tribute-info {
     padding-top: 30px;
-    width: 75%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -41,7 +35,7 @@ ul li {
 }
 
 blockquote {
-    width: 75%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 10px;
     border-radius: 15px;
